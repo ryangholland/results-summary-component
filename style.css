@@ -195,4 +195,21 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 730px) {
+  .summary-container,
+  .result-container {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    height: 100%;
+  }
+
+  .result-container {
+    margin-top: -2rem;
+    padding: 3rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
 
